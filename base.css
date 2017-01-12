@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600');
 
-h2, a, body, table {
+a, body, table {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 }
-h2, th {
+th {
 	font-size: 20px;
 	text-align: center;
+}
+
+h2 {
+	font-weight: lighter;
+	font-size: 12px;
+	text-transform: lowercase;
+	text-align:center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
 }
 a:hover {
 	color:grey;
