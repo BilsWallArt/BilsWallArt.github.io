@@ -16,6 +16,7 @@ a:hover {
 .header {
 	background: url("img/header.jpg");
 	overflow:hidden;
+	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	top:0;
 	left:0;
