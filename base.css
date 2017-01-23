@@ -6,6 +6,9 @@ a, body, table {
 	font-size: 14px;
 	text-decoration: none;
 }
+table {
+	padding: 15px;
+}
 th {
 	font-size: 20px;
 	text-align: center;
