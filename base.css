@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600');
 
-a, body, table {
+body {
+	background-image: url("background.jpg");
+}
+
+a {
+	text-decoration: none;
+	color:grey;
+}
+
+body, table {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -23,22 +32,23 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 }
 a:hover {
-	color:grey;
+	color:#786e62;
 }
 .header {
-	background: url("promo/header.jpg");
+	padding: 15px;
+	background: #433f3a;
 	overflow:hidden;
 	font-family: 'Open Sans', sans-serif;
-	width: 100%;
+	width: 90vw;
 	top:0;
-	left:0;
-	right:0;
+	margin: 0 auto;
 	height: 200px;
-	color: black;
-	text-align: center;
-	font-size: 40px;
+	color: white;
+	font-size: 14px;
 }
 .featured {
+	position: relative;
 	width: 250px;
-	margin: 5px;
+	margin: 15px;
+	border: #fff 10px solid;
 }
