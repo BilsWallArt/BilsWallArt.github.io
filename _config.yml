@@ -1,0 +1,16 @@
+# Site settings
+title: Bil's Wall Art
+email: BilsWallArt@hotmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  These are some of the more than 100 pieces I've made. 
+  If you're interested in seeing my wall art up close and 
+  personal please contact me at BilsWallArt@hotmail.com and 
+  I'll let you know when and where the next craft fair I'll be at is.
+  Click any image below to view it full size in your browser.
+  Thanks for visiting my site. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bilswallart.github.io/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: pretty
