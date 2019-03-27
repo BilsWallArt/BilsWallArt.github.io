@@ -1,0 +1,17 @@
+{% for file in site.static_files %}
+  {% if file.path contains include.folder %}
+    {% assign filenameparts = file.path | split: "/" %}
+    {% assign filename = filenameparts | last | replace: file.extname,"" %}
+        {% cycle 'add row' : '<div class="row">', '', '' %}
+            <div class="column column-50">
+                <div class="preview-panel">
+                    <a href="{{ site.baseurl }}{{ file.path }}" title="{{ filename }}">
+                      <img src="{{ site.baseurl }}{{ file.path }}">
+                      <!--span>{{ filename }}</span-->
+                    </a>
+               </div>
+            </div>
+    {% cycle 'end row' : '', '', '</div>' %}
+  {% endif %}
+{% endfor %}
+{% cycle 'end row' : '', '</div>', '</div>' %}
